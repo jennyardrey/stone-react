@@ -71,12 +71,12 @@
 		background: none;
 		outline: none;
 		transition: 0.1s;
-		color: black;
+		color: white;
 		@media (max-width: 700px) {
 			display: inline;
 		}
 		&:hover {
-			color: gray;
+			color: black;
 			cursor: pointer;
 		}
 	}
