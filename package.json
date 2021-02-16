@@ -1,7 +1,6 @@
 {
 	"name": "react-stone",
 	"version": "0.1.0",
-	"homepage": "http://jennyardrey.github.io/stone-react/",
 	"private": true,
 	"dependencies": {
 		"-": "0.0.1",
@@ -19,8 +18,6 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
