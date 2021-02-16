@@ -2,7 +2,7 @@ const securityServices = [
 
 	{
 		title: "Manned Guarding",
-		subtitle: "More than just at physical presence",
+		subtitle: "More than just a physical presence",
 		image: "../images/stone-men.png",
 		text: `A security officer on duty is more than a deterrent. If there is an incident or breach of security onsiteand officer will respond faster than any remote or mobile patrols would enable thereby minimising the impact of anyevent. Additionally, an officer on site could apprehend and maybe detain those causing the issue and thereby reducing the ongoing risk.`
 	},
