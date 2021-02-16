@@ -1,0 +1,26 @@
+.contact {
+	margin: 50px auto;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact h2 {
+	font-size: 2rem;
+}
+.contact-box {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact-box p {
+	font-size: 1.7rem;
+}
+
+.icon {
+	font-size: 2rem;
+}

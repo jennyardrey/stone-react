@@ -1,0 +1,75 @@
+//variables
+$screen_s: 450px;
+$screen_m: 768px;
+$screen_l: 1200px;
+
+.about {
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	background: url('../images/stonemenfull.jpg') no-repeat center center fixed;
+	height: 100vh;
+	.divider {
+		background-color: #e36414;
+    min-height: 150px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 46%, 0 100%); 
+		z-index: 60;
+		.main-title {
+			color: white;
+		}
+	}
+	h3 {
+		text-align: center;
+		font-size: 40px;
+	}
+	.main-text {
+		z-index: 60;
+		.about-text {
+			text-align: center;
+		background-color: #e3641490;
+    padding: 20px;
+    width: 70vw;
+    margin: 30px auto;
+    color: black;
+    font-weight: 800;
+		}
+	}
+	
+	&:after {
+		content: ""; // ::before and ::after both require content
+		position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+		opacity: .7;
+		z-index: 50;
+	}
+
+}
+.main-list {
+	.divider2 {
+background-color: #e36414;
+    min-height: 100px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 46%, 0 100%); 
+		z-index: 60;
+}
+	> h3 {
+		text-align: center;
+		font-size: 40px;
+	}
+	> ul {
+		list-style: none;
+			padding: 0;
+
+	}
+	text-align: center;
+	font-size: 20px;
+	z-index: 60;
+	height: 50vh;
+	width: 100vw;
+	margin: auto;
+	}
+
+	
