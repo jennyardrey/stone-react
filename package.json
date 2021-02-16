@@ -1,7 +1,7 @@
 {
 	"name": "react-stone",
 	"version": "0.1.0",
-	"homepage": "http://jennyardrey.github.io/stone-react",
+	"homepage": "http://jennyardrey.github.io/stone-react/",
 	"private": true,
 	"dependencies": {
 		"-": "0.0.1",
