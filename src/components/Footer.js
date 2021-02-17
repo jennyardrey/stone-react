@@ -1,6 +1,7 @@
 import '../styles/Footer.scss';
 import creds from '../images/acreds.png';
 import sia from '../images/SIA.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
@@ -15,12 +16,11 @@ const Footer = () => {
 				(CCTV) services.</p>
 
 			</section>
-			<section class="footer-top">
 
-				<img id="creds" src={creds} alt="sia-accred" />
-			</section>
+			<img id="creds" src={creds} alt="sia-accred" />
 			<section class="footer-bottom">
-				<p>© Copyright Stone Management Group
+				<div class="docs"><Link to="/policies">Policies</Link> | <Link to="/mission">Mission Statement</Link></div>
+				<p class="copyright">© Copyright Stone Management Group
 				Company Reg Number - 06479112 | Registered in England & Wales | Registered Address - Suite 31, The Colonnades,
 				Albert
 				Dock, Liverpool, L3 4AA</p>
@@ -28,5 +28,6 @@ const Footer = () => {
 		</footer >
 	);
 }
+
 
 export default Footer;

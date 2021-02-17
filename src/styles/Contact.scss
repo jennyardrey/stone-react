@@ -24,3 +24,20 @@
 .icon {
 	font-size: 2rem;
 }
+
+.social {
+	display: flex;
+	list-style: none;
+	padding: 30px;
+	font-size: 4rem;
+	color: black;
+	> a {
+		color: black;
+		&:visited {
+			color: black;
+		}
+		&:hover {
+			color: gray;
+		}
+	}
+}

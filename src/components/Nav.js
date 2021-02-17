@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import '../styles/Nav.scss';
-import navLogo from '../images/alternative_logo_sketch_white.png';
+import navLogo from '../images/stone-logo-21-white.png';
 import { Link as LinkA } from 'react-router-dom'
 import { Link } from 'react-scroll'
 import logo from '../images/alternative_logo_sketch.png'
@@ -50,7 +50,7 @@ const Nav = () => {
 					<Link onClick={toggleNav} className="active nav-link hide" to="concierge-anchor" spy={true} smooth={true} duration={900} offset={-200}>Concierge Services</Link>
 					<Link onClick={toggleNav} className="active nav-link hide" to="cleaning-anchor" spy={true} smooth={true} duration={900} offset={-200}>Cleaning Services</Link>
 
-					<Link className="active nav-link" to="contact-anchor" spy={true} smooth={true} duration={900} offset={-200}>Contact Us</Link>
+					<Link onClick={toggleNav} className="active nav-link" to="contact-anchor" spy={true} smooth={true} duration={900} offset={-200}>Contact Us</Link>
 				</nav>
 			</CSSTransition>
 			<button onClick={toggleNav} className="burger">

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/Title.scss';
-import logo from '../images/alternative_logo_sketch.png'
+import logo from '../images/stone-logo-21-orange.png'
 
 const Title = () => {
 	return (
