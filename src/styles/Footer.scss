@@ -1,4 +1,4 @@
-footer {
+.footer {
 	padding-top: 20px;
 	margin: auto;
 	display: flex;
@@ -6,29 +6,22 @@ footer {
 	align-items: center;
 	width: 80%;
 	border-top: 1px solid lightgray;
-	.info {
-		text-align: center;
-	}
-	#creds {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 150px;
-		height: 50px;
-	}
 	.footer-bottom {
 		font-size: 0.5rem;
 		padding: 10px;
 		text-align: center;
+		#creds {
+		width: 150px;
+		height: 50px;
+	}
 		 .docs {
 				> a {
 				color: black;
 				&:visited {
 					color: black;
 				}
+			}
 		}
-		}
-	
 	}
 }
 

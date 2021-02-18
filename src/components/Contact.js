@@ -1,4 +1,5 @@
 import '../styles/Contact.scss'
+import sia from '../images/SIA.png';
 
 const Contact = () => {
 	return (
@@ -25,6 +26,14 @@ const Contact = () => {
 					<a href="http://twitter.com"><i class="fab fa-instagram"></i></a>
 				</li>
 			</ul>
+			<section class="info">
+				<img id="sia-img" src={sia} alt="sia-badge" />
+				<p>Stone Management Group holds
+				Approved
+				Contractor Status for the provision of Security Guarding and Key Holding services and Public Space
+				Surveillance
+				(CCTV) services.</p>
+			</section>
 		</div>
 	);
 }

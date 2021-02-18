@@ -25,7 +25,6 @@ const Policies = () => {
 				<a href={quality}>Quality Policy<img alt="pdf logo" src={pdflogo} /></a>
 				<a href={protection}>Communications Policy<img alt="pdf logo" src={pdflogo} /></a>
 				<a href={equality}>Protection of the Public Policy<img alt="pdf logo" src={pdflogo} /></a>
-
 			</div>
 		</div>
 

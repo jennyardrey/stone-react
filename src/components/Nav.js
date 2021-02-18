@@ -4,7 +4,7 @@ import '../styles/Nav.scss';
 import navLogo from '../images/stone-logo-21-white.png';
 import { Link as LinkA } from 'react-router-dom'
 import { Link } from 'react-scroll'
-import logo from '../images/alternative_logo_sketch.png'
+import logo from '../images/stone-logo-21-orange.png'
 
 
 const Nav = () => {
