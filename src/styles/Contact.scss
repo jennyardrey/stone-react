@@ -7,7 +7,13 @@
 	h2 {
 		font-size: 2rem;
 	}
-	.contact-box {
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+		@media only screen and (min-width: 768px) {
+			flex-direction: row;
+		}
+			.contact-box {
 		text-align: center;
 		margin: 20px;
 		padding: 20px;
@@ -22,6 +28,8 @@
 			font-size: 2rem;
 		}
 	}
+	}
+
 	.footer-nav {
 	display: flex;
 	list-style: none;
@@ -30,6 +38,7 @@
 	color: black;
 		.social {
 			> a {
+				margin: 20px;
 				color: black;
 				&:visited {
 					color: black;

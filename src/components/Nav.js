@@ -45,12 +45,17 @@ const Nav = () => {
 			>
 				<nav className="nav-links">
 					<img id="logo" src={logo} alt="stone-logo"></img>
-					<LinkA className="active nav-link" to="/client-staff" >Client/Staff Area</LinkA>
-					<Link onClick={toggleNav} className="active nav-link hide" to="security-anchor" spy={true} smooth={true} duration={900} offset={-200}>Security Services</Link>
-					<Link onClick={toggleNav} className="active nav-link hide" to="concierge-anchor" spy={true} smooth={true} duration={900} offset={-200}>Concierge Services</Link>
-					<Link onClick={toggleNav} className="active nav-link hide" to="cleaning-anchor" spy={true} smooth={true} duration={900} offset={-200}>Cleaning Services</Link>
-
-					<Link onClick={toggleNav} className="active nav-link" to="contact-anchor" spy={true} smooth={true} duration={900} offset={-200}>Contact Us</Link>
+					<div className="top-nav">
+						<LinkA className="active nav-link" to="/client-staff" >Client/Staff Area</LinkA>
+						<Link onClick={toggleNav} className="active nav-link hide" to="security-anchor" spy={true} smooth={true} duration={900} offset={-200}>Security Services</Link>
+						<Link onClick={toggleNav} className="active nav-link hide" to="concierge-anchor" spy={true} smooth={true} duration={900} offset={-200}>Concierge Services</Link>
+						<Link onClick={toggleNav} className="active nav-link hide" to="cleaning-anchor" spy={true} smooth={true} duration={900} offset={-200}>Cleaning Services</Link>
+					</div>
+					<div className="bottom-nav">
+						<Link onClick={toggleNav} className="active nav-link" to="contact-anchor" spy={true} smooth={true} duration={900} offset={-200}>Contact Us</Link>
+						<Link to="/policies">Policies</Link>
+						<Link to="/mission">Mission Statement</Link>
+					</div>
 				</nav>
 			</CSSTransition>
 			<button onClick={toggleNav} className="burger">

@@ -15,9 +15,10 @@ const Policies = () => {
 		<div class="policies-page">
 			<div class="home-link">
 				<h1>Policies</h1>
-				<Link to="/">Home</Link>
+				<Link to="/">&#10232; Back to Home</Link>
 			</div>
 			<div class="policies-container">
+				<p>Below you will find our policies. Click to read on the browser or right click to download a copy.</p>
 				<a href={hands}>Health & Safety<img alt="pdf logo" src={pdflogo} /></a>
 				<a href={environmental}>Environmental Policy<img alt="pdf logo" src={pdflogo} /></a>
 				<a href={corporate}>Corporate Social Responsibility<img alt="pdf logo" src={pdflogo} /></a>
