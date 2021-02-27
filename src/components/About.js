@@ -13,14 +13,15 @@ const About = () => {
 					<p data-aos="fade-right" class="about-text">SMG is a northwest based business with expertise in security,
 					cleaning, maintenance and
 					procurement services.
-					</p>
-
-					<p data-aos="fade-right" class="about-text">Well established in our sectors, we have a record of fast
+					<br></br>
+						<br></br>
+					Well established in our sectors, we have a record of fast
 					mobilisation and reliability
 					which is difficult to
-					match.</p>
-
-					<p data-aos="fade-left" class="about-text">Whatever our role, we believe communication is key and we work with
+					match.
+					<br></br>
+						<br></br>
+					Whatever our role, we believe communication is key and we work with
 					our clients to
 					provide a service that
 					perfectly fits

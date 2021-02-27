@@ -1,5 +1,14 @@
 import { securityServices, conciergeServices, cleaningServices } from '../data/servicesData';
 import '../styles/Services.scss'
+import diamond from "../images/diamond-left.png";
+import diamond2 from "../images/diamond-right.png";
+/* import manned from '../images/manned.png'
+import mobile from '../images/mobile.png'
+import canine from '../images/canine.png'
+import alarm from '../images/canine.png'
+import key from '../images/key.png'
+import lock from '../images/lock.png' */
+
 
 const Services = () => {
 	return (
@@ -9,24 +18,34 @@ const Services = () => {
 
 			<div class="security-services service" id="security-anchor" >
 				<h2>Security Services</h2>
+
 				<div class="service-group">
-					{securityServices.map(service => {
-						return <div class="single-service">
-							<h3>{service.title}</h3>
-							<h4>{service.subtitle}</h4>
-							<p>{service.text}</p>
+					{securityServices.map((service, key) => {
+						return <div key={key} class="single-service">
+							<img src={require(`../images/${service.image}.png`)} alt="diamond symbol" />
+							{console.log(service.image)}
+							<div className="content">
+								<h4>{service.subtitle}</h4>
+								<h3>{service.title}</h3>
+								<p>{service.text}</p>
+							</div>
 						</div>
 					})}
 				</div>
+
 			</div>
+
 			<div class="concierge-services service" id="concierge-anchor">
 				<h2>Concierge Services</h2>
 				<div class="service-group">
-					{conciergeServices.map(service => {
-						return <div class="single-service" >
-							<h3>{service.title}</h3>
-							<h4>{service.subtitle}</h4>
-							<p>{service.text}</p>
+					{conciergeServices.map((service, key) => {
+						return <div key={key} class="single-service" >
+							<img src={require(`../images/${service.image}.png`)} alt="diamond symbol" />
+							<div className="content">
+								<h3>{service.title}</h3>
+								<h4>{service.subtitle}</h4>
+								<p>{service.text}</p>
+							</div>
 						</div>
 					})}
 				</div>
@@ -35,11 +54,14 @@ const Services = () => {
 				<h2>Cleaning Services</h2>
 				<div class="service-group">
 
-					{cleaningServices.map(service => {
-						return <div class="single-service" >
-							<h3>{service.title}</h3>
-							<h4>{service.subtitle}</h4>
-							<p>{service.text}</p>
+					{cleaningServices.map((service, key) => {
+						return <div key={key} class="single-service" >
+							<img src={require(`../images/${service.image}.png`)} alt="diamond symbol" />
+							<div className="content">
+								<h3>{service.title}</h3>
+								<h4>{service.subtitle}</h4>
+								<p>{service.text}</p>
+							</div>
 						</div>
 					})}
 				</div>

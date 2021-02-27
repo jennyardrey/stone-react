@@ -53,8 +53,8 @@ const Nav = () => {
 					</div>
 					<div className="bottom-nav">
 						<Link onClick={toggleNav} className="active nav-link" to="contact-anchor" spy={true} smooth={true} duration={900} offset={-200}>Contact Us</Link>
-						<Link to="/policies">Policies</Link>
-						<Link to="/mission">Mission Statement</Link>
+						<LinkA to="/policies">Policies</LinkA>
+						<LinkA to="/mission">Mission Statement</LinkA>
 					</div>
 				</nav>
 			</CSSTransition>
