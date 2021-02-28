@@ -30,11 +30,11 @@
 			}
 			&:nth-child(even) {
 			 background: url('../images/diamond-right.png') no-repeat center center fixed;
-			 background-size: 500px;
+			 background-size: 400px;
 	 		}
 	 		&:nth-child(odd) {
 			 background: url('../images/diamond-left.png') no-repeat center center fixed;
-			 background-size: 500px;
+			 background-size: 400px;
 	 		}
 	 		grid-template-areas: "diamond" "info";
 	 		display: grid;
@@ -42,7 +42,7 @@
 			margin: 50px 20px;
 			align-items: center;
 			justify-items: center;
-			> img {
+			> .img {
 				width: 30vw;
 				grid-area: diamond;
 			}
@@ -83,6 +83,55 @@
 				min-height: 50px;
 			}
 	 }
+
+}
+#manned {
+	width: 400px;
+	height: 400px;
+	background: url('../images/manned.png') no-repeat center center fixed;
+	background-size: 400px;
+		background-position-x: 50px;
+
+}
+#mobile {
+	background: url('../images/mobile.png') no-repeat center center fixed;
+  background-size: 400px;
+	width: 400px;
+	height: 400px;
+		background-position-x: 50px;
+
+}
+#canine {
+	background-position-x: 50px;
+	background: url('../images/canine.png') no-repeat center center fixed;
+  background-size: 400px;
+	width: 400px;
+	height: 400px;
+		background-position-x: 50px;
+
+}
+#lock {
+	background: url('../images/lock.png') no-repeat center center fixed;
+  background-size: 400px;
+	width: 400px;
+	height: 400px;
+		background-position-x: 50px;
+
+}
+#key {
+	background: url('../images/key.png') no-repeat center center fixed;
+  background-size: 400px;
+	width: 400px;
+	height: 400px;
+		background-position-x: 50px;
+
+}
+#alarm {
+	background: url('../images/alarm.png') no-repeat center center fixed;
+  background-size: 400px;
+	width: 400px;
+	height: 400px;
+		background-position-x: 50px;
 
 }
 

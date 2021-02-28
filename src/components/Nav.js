@@ -46,7 +46,7 @@ const Nav = () => {
 				<nav className="nav-links">
 					<img id="logo" src={logo} alt="stone-logo"></img>
 					<div className="top-nav">
-						<LinkA className="active nav-link" to="/client-staff" >Client/Staff Area</LinkA>
+						<LinkA className="active nav-link hide" to="/client-staff" >Client/Staff Area</LinkA>
 						<Link onClick={toggleNav} className="active nav-link hide" to="security-anchor" spy={true} smooth={true} duration={900} offset={-200}>Security Services</Link>
 						<Link onClick={toggleNav} className="active nav-link hide" to="concierge-anchor" spy={true} smooth={true} duration={900} offset={-200}>Concierge Services</Link>
 						<Link onClick={toggleNav} className="active nav-link hide" to="cleaning-anchor" spy={true} smooth={true} duration={900} offset={-200}>Cleaning Services</Link>

@@ -28,19 +28,19 @@ const About = () => {
 					the assignment</p>
 				</div>
 
-
+				<div class="main-list">
+					<h3>What we do:</h3>
+					<ul>
+						<li>Service 1</li>
+						<li>Service 2</li>
+						<li>Service 3</li>
+						<li>Service 4</li>
+					</ul>
+				</div>
 			</div>
+			<div class="divider2"></div>
 
-			<div class="main-list">
-				<div class="divider2"></div>
-				<h3>What we do:</h3>
-				<ul>
-					<li>Service 1</li>
-					<li>Service 2</li>
-					<li>Service 3</li>
-					<li>Service 4</li>
-				</ul>
-			</div>
+
 		</>
 	);
 }

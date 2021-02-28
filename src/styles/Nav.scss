@@ -38,6 +38,9 @@
 		.top-nav, .bottom-nav {
 			display: flex;
 			flex-direction: column;
+			.hide {
+				display: none;
+			}
 	> a {
 				padding: 20px;
 				cursor: pointer;
