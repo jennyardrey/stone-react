@@ -56,7 +56,7 @@ const cleaningServices = [
 	{
 		title: "Exterior Cleaning",
 		subtitle: "lorem ipsum",
-		image: 'manned',
+		image: 'alarm',
 		text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates commodi harum eveniet impedit adipisci accusamus quia nam sunt, vero nisi aliquam consectetur sapiente exercitationem id modi cumque facere molestiae a!`
 
 	}

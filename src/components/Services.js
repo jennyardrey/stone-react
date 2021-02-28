@@ -22,7 +22,7 @@ const Services = () => {
 				<div class="service-group">
 					{securityServices.map((service, key) => {
 						return <div key={key} class="single-service">
-							<div id={service.image}></div>
+							<div class="image" id={service.image}></div>
 							<div className="content">
 								<h4>{service.subtitle}</h4>
 								<h3>{service.title}</h3>
@@ -39,7 +39,7 @@ const Services = () => {
 				<div class="service-group">
 					{conciergeServices.map((service, key) => {
 						return <div key={key} class="single-service" >
-							<img src={require(`../../images/${service.image}.png`)} alt="diamond symbol" />
+							<div class="image" id={service.image}></div>
 							<div className="content">
 								<h3>{service.title}</h3>
 								<h4>{service.subtitle}</h4>
@@ -48,14 +48,14 @@ const Services = () => {
 						</div>
 					})}
 				</div>
-			</div>"/public/images/alarm.png"
+			</div>
 			<div class="cleaning-services service" id="cleaning-anchor">
 				<h2>Cleaning Services</h2>
 				<div class="service-group">
 
 					{cleaningServices.map((service, key) => {
 						return <div key={key} class="single-service" >
-							<img src={require(`../../images/${service.image}.png`)} alt="diamond symbol" />
+							<div class="image" id={service.image}></div>
 							<div className="content">
 								<h3>{service.title}</h3>
 								<h4>{service.subtitle}</h4>
