@@ -87,7 +87,9 @@
 	height: 400px;
 			background-position-x: 400px;
 		background-size: 400px;
-
+					}
+						@media only screen and (min-width: 1024px){
+								background-position-x: 590px;
 					}
 }
 #mobile {
@@ -100,6 +102,9 @@
 		width: 400px;
 		height: 400px;
 		background-position-x: 50px;
+					}
+					@media only screen and (min-width: 1024px){
+								background-position-x: 190px;
 					}
 }
 #canine {
@@ -114,6 +119,9 @@
 		height: 400px;
 		background-position-x: 400px;
 					}
+						@media only screen and (min-width: 1024px){
+								background-position-x: 590px;
+					}
 }
 #lock {
 	background: url('../images/lock.png') no-repeat center center fixed;
@@ -125,6 +133,9 @@ background-size: 200px;
 		width: 400px;
 		height: 400px;
 		background-position-x: 50px;
+					}
+					@media only screen and (min-width: 1024px){
+								background-position-x: 190px;
 					}
 }
 #key {
@@ -138,6 +149,10 @@ background-size: 200px;
 		height: 400px;
 		background-position-x: 400px;
 					}
+					@media only screen and (min-width: 1024px){
+								background-position-x: 590px;
+					}
+					
 }
 #alarm {
 	background: url('../images/alarm.png') no-repeat center center fixed;
@@ -149,6 +164,9 @@ background-size: 200px;
 		width: 400px;
 		height: 400px;
 		background-position-x: 50px;
+					}
+					@media only screen and (min-width: 1024px){
+								background-position-x: 190px;
 					}
 }
 
