@@ -52,7 +52,6 @@ const Services = () => {
 			<div class="cleaning-services service" id="cleaning-anchor">
 				<h2>Cleaning Services</h2>
 				<div class="service-group">
-
 					{cleaningServices.map((service, key) => {
 						return <div key={key} class="single-service" >
 							<div class="image" id={service.image}></div>

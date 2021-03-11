@@ -8,9 +8,8 @@ $screen_l: 1200px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 46%, 0 100%); 
 		z-index: 60;
-		/* .main-title {
-			color: white;
-		} */
+		position: relative;
+		top: 85px;
 	}
 .about {
 	display: flex;

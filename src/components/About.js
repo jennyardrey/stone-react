@@ -5,8 +5,9 @@ import stoneMenFull from '../images/stonemenfull.jpg'
 const About = () => {
 	return (
 		<>
+			<div class="divider"></div>
 			<div class="about">
-				<div class="divider"></div>
+
 
 				<div class="main-text">
 					<h3>Who we are:</h3>
